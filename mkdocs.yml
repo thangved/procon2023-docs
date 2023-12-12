@@ -1,0 +1,41 @@
+site_name: CTU.Word2Vec - Procon 2023
+
+theme:
+  name: material
+  favicon: assets/logo-ctu.png
+  language: vi
+  logo: assets/logo-ctu.png
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - search.suggest
+    - header.autohide
+    - navigation.footer
+
+plugins:
+  - search
+  - tags
+  - offline
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/thangved/procon2023-docs
+    - icon: fontawesome/brands/facebook
+      link: https://fb.com/thangved
+
+repo_url: https://github.com/thangved/procon2023-docs
+repo_name: thangved/procon2023-docs
+
+markdown_extensions:
+  - footnotes
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
