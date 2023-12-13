@@ -2,7 +2,7 @@
 icon: simple/react
 ---
 
-# Giới thiệu Procon 2023 Game client
+# Procon 2023 Game client
 
 ## Thông tin chung
 
