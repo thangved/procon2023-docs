@@ -1,3 +1,7 @@
+---
+icon: material/axe
+---
+
 # Thợ thủ công
 
 Mỗi thợ thủ công có thể thực hiện các chuyển động sau mỗi lượt:

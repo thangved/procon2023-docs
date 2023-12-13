@@ -1,3 +1,7 @@
+---
+icon: material/sword-cross
+---
+
 # Lĩnh vực thi đấu
 
 ## Sân thi đấu

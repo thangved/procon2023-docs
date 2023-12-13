@@ -1,3 +1,7 @@
+---
+icon: material/progress-helper
+---
+
 # Tiến trình của trò chơi
 
 **<u>Hai đội lần lượt</u>** thực hiện trò chơi. Một lượt tương ứng với hành động của mỗi đội.
