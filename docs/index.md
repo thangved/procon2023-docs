@@ -1,6 +1,6 @@
 # Procon 2023
 
-<video autoplay loop controls>
+<video autoplay loop>
     <source src="./demo.webm" />
 </video>
 
