@@ -25,6 +25,5 @@ jobs:
           restore-keys: |
             mkdocs-material-
       - run: pip install mkdocs-material
-      - run: pip install poetry
-      - run: poetry install --no-root
+      - run: pip install "mkdocs-material[imaging]"
       - run: mkdocs gh-deploy --force
