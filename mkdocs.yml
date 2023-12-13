@@ -19,6 +19,9 @@ plugins:
   - search
   - tags
   - offline
+  - social
+
+site_url: https://thangved.github.io/procon2023-docs/
 
 extra:
   social:
