@@ -1,4 +1,13 @@
 site_name: CTU.Word2Vec - Procon 2023
+site_url: https://thangved.github.io/procon2023-docs
+copyright: |
+  &copy; 2023 CTU.Word2Vec
+docs_dir: docs
+remote_branch: gh-pages
+site_description: CTU.Word2Vec - Procon 2023
+site_author: CTU.Word2Vec
+repo_url: https://github.com/thangved/procon2023-docs
+repo_name: thangved/procon2023-docs
 
 theme:
   name: material
@@ -23,8 +32,8 @@ plugins:
   - tags
   - offline
   - social
-
-site_url: https://thangved.github.io/procon2023-docs/
+  - git-committers:
+        repository: thangved/procon2023-docs
 
 extra:
   social:
@@ -32,9 +41,6 @@ extra:
       link: https://github.com/thangved/procon2023-docs
     - icon: fontawesome/brands/facebook
       link: https://fb.com/thangved
-
-repo_url: https://github.com/thangved/procon2023-docs
-repo_name: thangved/procon2023-docs
 
 markdown_extensions:
   - footnotes
