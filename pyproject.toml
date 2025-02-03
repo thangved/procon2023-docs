@@ -9,7 +9,7 @@ package-mode = false
 [tool.poetry.dependencies]
 python = "^3.10"
 mkdocs-material = {extras = ["imaging"], version = "^9.5.43"}
-mkdocs-git-committers-plugin-2 = "^2.4.1"
+mkdocs-git-committers-plugin-2 = "^2.5.0"
 
 
 [build-system]
